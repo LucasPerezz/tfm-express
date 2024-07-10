@@ -1,0 +1,24 @@
+.formContainer {
+    max-width: 400px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    margin: auto 0;
+}
+
+
+.formContainer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.formContainer ul li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    list-style: none;
+}

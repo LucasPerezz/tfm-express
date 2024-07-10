@@ -23,7 +23,16 @@ const postUser = () => {
     .catch(error => {
         console.error('', error);
     });
+    
 };
+
+
+
+
+
+
+
+
 
 
 

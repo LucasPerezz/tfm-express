@@ -84,7 +84,7 @@ export const deleteUserById = (req, res) => {
     res.json({msg: "Usuario eliminado"});
 }
 
-const validate = (user) => {
+export const validate = (user) => {
     const {nombre, apellido, edad} = user;
     if(!nombre || !apellido || !edad) {
         return 0;
