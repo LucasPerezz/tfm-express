@@ -1,11 +1,14 @@
 import './App.css'
+import CreateUsers from './components/CreateUsers'
+import GetUsers from './components/GetUsers'
 
 function App() {
 
 
   return (
     <>
-      <h1>Hola mundo</h1>
+      <CreateUsers />
+      <GetUsers />
     </>
   )
 }
